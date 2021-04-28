@@ -1,0 +1,25 @@
+div {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.container-fluid{
+  position: relative;
+  top: 12vh;
+
+}
+
+.card {
+  font-size: 10px;
+}
+
+#skills{
+  position: relative;
+  right: 2vh;
+}
+
+#column {
+  background-color: darkred;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+}

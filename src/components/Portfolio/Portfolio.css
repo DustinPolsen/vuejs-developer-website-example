@@ -1,0 +1,19 @@
+div {
+  color: whitesmoke;
+  text-align: center;
+}
+
+#containerp{
+  position: relative;
+  top: 11vh;
+  height: 1388px;
+  width: fit-content;
+  padding-bottom: .5rem;
+  padding-top: .5rem;
+  background-color: initial;
+  overflow: auto;
+}
+
+.card {
+  background-color: darkred;
+}

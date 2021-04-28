@@ -1,0 +1,30 @@
+<template>
+  <div>
+    <div class="container">
+      <form id="contact" action="" method="post">
+        <h3>Contact</h3>
+        <h4>You can also contact me on Linkedin, my profile can be accessed by clicking the Linkedin button at the bottom of the page.</h4>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</template>
+<script src="./Contact.js"></script>
+<style src="./Contact.css"></style>
